@@ -56,8 +56,6 @@ const windSound = document.getElementById('windSound'); //wind sound
 const wallSound = document.getElementById('wallSound'); //wall hit sound
 const bgMusicList =
     [document.getElementById('bgMusicB'),
-    document.getElementById('bgMusicC'),
-    document.getElementById('bgMusicD'),
     document.getElementById('bgMusicE'),
     document.getElementById('bgMusicF')]; //array of background music tracks
 let bgMusic = null; //current background music track
