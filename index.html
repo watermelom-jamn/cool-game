@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head> <!-- head explains stuff offscreen. -->
+    <title>untitled cool game</title>
+        <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+
+<style>
+  body {
+    color: orange;
+    font: Franklin Gothic, serif;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 75px;
+  }
+</style>
+<button id="playAgainBtn" style="display: none; padding: 15px 30px; font-size: 24px; font-family: Franklin Gothic Medium; cursor: pointer; background-color: yellow; color: orangered; border: 5px solid orangered; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 10px;">
+    PLAY AGAIN
+</button>
+<button id="startBtn" style="padding: 15px 30px; font-size: 24px; font-family: Franklin Gothic Medium; cursor: pointer; background-color: yellow; color: orangered; border: 5px solid orangered; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 10px;">
+    START
+</button>
+<button id="pauseBtn" style="padding: 10px 15px; font-size: 22px; font-family: Franklin Gothic Medium; cursor: pointer; background-color: yellow; color: orangered; border: 5px solid orangered; position: absolute; top: 10px; right: 545px; border-radius: 10px;">
+    II
+</button>
+<!-- <p id="headingText">fight against nature</p> -->
+<canvas id = "gameCanvas" width = "450" height = "750">
+    <style>
+      canvas {
+        border: 10px solid orangered;
+        background: orange;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+    </style>
+</canvas>
+
+
+<audio id="startBtnSound" src="game yay sfx\mixkit-gaming-lock-2848.wav" preload="auto"></audio>
+<audio id="playAgainBtnSound" src="game yay sfx\mixkit-retro-arcade-casino-notification-211.wav" preload="auto"></audio>
+<audio id="pauseBtnASound" src="game yay sfx\mixkit-video-game-retro-click-237.wav" preload="auto"></audio>
+<audio id="pauseBtnBSound" src="game yay sfx\mixkit-computer-digital-lock-2859.wav" preload="auto"></audio>
+<audio id="gameOverSound" src="game yay sfx\mixkit-retro-arcade-game-over-470.wav" preload="auto"></audio>
+<audio id="lvlUpASound" src="game yay sfx\mixkit-arcade-bonus-alert-767.wav" preload="auto"></audio>
+<audio id="lvlUpBSound" src="game yay sfx\mixkit-small-win-2020.wav" preload="auto"></audio>
+<audio id="highScoreSound" src="game yay sfx\mixkit-video-game-win-2016.wav" preload="auto"></audio>
+<audio id="nearMissSound" src="game yay sfx\mixkit-explainer-video-game-reveal-235.wav" preload="auto"></audio>
+<audio id="windSound" src="game yay sfx\mixkit-repeating-arcade-beep-1084.wav" preload="auto" loop></audio>
+<audio id="wallSound" src="game yay sfx\mixkit-arcade-video-game-machine-alert-2821.wav" preload="auto"></audio>
+
+<audio id="bgMusicA" src="game yay sfx\583869__bloodpixelhero__in-game-2.wav" preload="auto" loop></audio>
+<audio id="bgMusicB" src="game yay sfx\607276__bloodpixelhero__retro-arcade-music-2.wav" preload="auto" loop></audio>
+<audio id="bgMusicC" src="game yay sfx\607942__bloodpixelhero__retro-arcade-music-3.wav" preload="auto" loop></audio>
+<audio id="bgMusicD" src="game yay sfx\608398__bloodpixelhero__retro-arcade-music-4.wav" preload="auto" loop></audio>
+<audio id="bgMusicE" src="game yay sfx\610068__bloodpixelhero__game-music-loop-7.wav" preload="auto" loop></audio>
+<audio id="bgMusicF" src="game yay sfx\615013__bloodpixelhero__game-music-loop-8.wav" preload="auto" loop></audio>
+
+<script src = "game.js" defer></script>
+</body>
+</html>
